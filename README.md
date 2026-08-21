@@ -1,7 +1,10 @@
-
-
-
 # Four-Channel EMG Wearable Forearm Brace
+
+<p align="center">
+  <img src="Media/ForearmBraceTop.jpg"
+       alt="Top view of the EMG forearm brace"
+       width="300">
+</p>
 
 **Status:** Functional four-channel acquisition prototype; grip classification and prosthetic control remain in development
 
@@ -30,12 +33,6 @@ The current prototype acquires and displays four simultaneous EMG channels with 
 https://github.com/user-attachments/assets/97304fc7-ee5d-449a-bffc-9f695163887c
 
 The demonstration shows the completed brace acquiring four EMG channels while different grips are performed.
-
-<p align="center">
-  <img src="Media/ForearmBraceTop.jpg"
-       alt="Top view of the EMG forearm brace"
-       width="300">
-</p>
 
 ## 3. System Architecture
 
