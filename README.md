@@ -47,7 +47,6 @@ flowchart TD
     B --> I["Common-mode averaging network"]
     I --> J["Driven-reference and VREF board"]
     J --> K["Reference electrode"]
-    J --> C
 ```
 
 Each EMG channel follows the same analog signal path:
