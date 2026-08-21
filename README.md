@@ -85,7 +85,38 @@ This was an independent project. I was responsible for the complete hardware and
 * Performing frequency-response and live wearable testing
 * Documenting the development and debugging process
 
-https://github.com/user-attachments/assets/43b05225-f7a6-4b95-9025-9b29c460e382
+
+<table>
+  <tr>
+    <td width="33%" align="center">
+      <a href="VIDEO_URL_1">
+        https://github.com/user-attachments/assets/43b05225-f7a6-4b95-9025-9b29c460e382
+      </a>
+      <br>
+      <strong>PCB Footprint Design</strong>
+    </td>
+    <td width="33%" align="center">
+      <a href="VIDEO_URL_2">
+        <img src="Media/SchematicPreview.jpg"
+             alt="Designing the circuit schematic"
+             width="100%">
+      </a>
+      <br>
+      <strong>Circuit Schematic Design</strong>
+    </td>
+    <td width="33%" align="center">
+      <a href="VIDEO_URL_3">
+        <img src="Media/AssemblyPreview.jpg"
+             alt="Soldering and assembling the PCB"
+             width="100%">
+      </a>
+      <br>
+      <strong>Soldering and Assembly</strong>
+    </td>
+  </tr>
+</table>
+
+
 
 ## 5. Design Requirements
 
