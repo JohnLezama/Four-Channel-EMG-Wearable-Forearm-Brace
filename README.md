@@ -193,9 +193,9 @@ The simulation demonstrated:
 * Attenuation above the 500 Hz low-pass region
 * An initial instrumentation-amplifier gain of 20
 
-![Simulated frequency response](Media/FrequencyGraph.png)
+![Simulated frequency response](Media/FrequencyPlot.png)
 
-![Transient EMG simulation](Media/TransientGraph.png)
+![Transient EMG simulation](Media/InputAndOutputTransientSimulationWithDRL.png)
 
 ### Bench testing
 
