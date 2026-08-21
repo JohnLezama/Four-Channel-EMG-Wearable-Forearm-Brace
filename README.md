@@ -1,3 +1,6 @@
+
+
+
 # Four-Channel EMG Wearable Forearm Brace
 
 **Status:** Functional four-channel acquisition prototype; grip classification and prosthetic control remain in development
@@ -81,6 +84,8 @@ This was an independent project. I was responsible for the complete hardware and
 * Programming the ESP32 in C++ for four-channel acquisition and visualization
 * Performing frequency-response and live wearable testing
 * Documenting the development and debugging process
+
+https://github.com/user-attachments/assets/43b05225-f7a6-4b95-9025-9b29c460e382
 
 ## 5. Design Requirements
 
