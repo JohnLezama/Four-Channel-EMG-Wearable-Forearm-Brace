@@ -248,12 +248,9 @@ emg-forearm-brace/
 │       ├── src/
 │       └── README.md
 ├── cad/
-│   ├── source/
-│   │   └── onshape-link.md
-│   └── stl/
-│       ├── fitting-test.stl
-│       ├── forearm-brace.stl
-│       └── wire-pin.stl
+│   ├── fitting-test.stl
+│   ├── forearm-brace.stl
+│   └── wire-pin.stl
 ├── electronics/
 │   ├── emg-channel/
 │   │   ├── kicad/
@@ -265,7 +262,6 @@ emg-forearm-brace/
 │   │   └── drl-vref-schematic.pdf
 │   └── parts-list.md
 ├── docs/
-│   ├── development-log.md
 │   ├── design-requirements.md
 │   ├── simulation/
 │   └── testing/
@@ -283,7 +279,7 @@ emg-forearm-brace/
 * `electronics/` contains KiCad sources, schematics, PCB layouts, and the parts list.
 * `docs/simulation/` contains the Bode plots and transient-analysis results.
 * `docs/testing/` contains the injected-frequency captures and debugging evidence.
-* `media/` contains compressed demonstration media used by the README.
+* `media/` contains the media used by the README.
 * `references.md` cites the EMG papers and technical resources used during development.
 
 Research papers should be linked or cited rather than redistributed unless their licenses permit redistribution.
