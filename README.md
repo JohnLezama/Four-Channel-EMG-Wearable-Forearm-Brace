@@ -28,7 +28,11 @@ https://github.com/user-attachments/assets/97304fc7-ee5d-449a-bffc-9f695163887c
 
 The demonstration shows the completed brace acquiring four EMG channels while different grips are performed.
 
-![Top view of the EMG forearm brace](Media/ForearmBraceTop.jpg)
+<p align="center">
+  <img src="Media/ForearmBraceTop.jpg"
+       alt="Top view of the EMG forearm brace"
+       width="300">
+</p>
 
 ## 3. System Architecture
 
