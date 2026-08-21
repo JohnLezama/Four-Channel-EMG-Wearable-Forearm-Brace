@@ -30,7 +30,7 @@ The current prototype acquires and displays four simultaneous EMG channels with 
 
 The demonstration shows the completed brace acquiring four EMG channels while different grips are performed.
 
-![Top view of the EMG forearm brace](Media/ForearmBraceTop.png)
+![Top view of the EMG forearm brace](Media/ForearmBraceTop.jpg)
 
 ## 3. System Architecture
 
