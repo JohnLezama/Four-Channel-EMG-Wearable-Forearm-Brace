@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/97304fc7-ee5d-449a-bffc-9f695163887c
+
 # Four-Channel EMG Wearable Forearm Brace
 
 **Status:** Functional four-channel acquisition prototype; grip classification and prosthetic control remain in development
