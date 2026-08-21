@@ -149,9 +149,9 @@ The final repository should document the exact ESP32 variant, ADC pins, attenuat
 
 **Problem:** The dimensions taken from the electrode hardware did not directly produce the desired printed fit.
 
-**First approach:** I printed a fitting test with nominal openings of 3.575, 3.650, 3.725, and 3.800 mm.
+**First approach:** I printed a fitting test with nominal openings of 3.575, 3.650, 3.725, 3.800, 3.875, 3.950, 4.025, and 4.100 mm.
 
-**Fix:** Based on the physical test, I revised the opening to approximately 4.025 mm.
+**Fix:** Based on the physical test, I revised the opening to 4.025 mm.
 
 **Result:** The revised geometry produced more secure and repeatable electrode retention in the completed brace.
 
