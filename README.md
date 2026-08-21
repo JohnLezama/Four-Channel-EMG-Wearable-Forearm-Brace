@@ -24,9 +24,9 @@ The current prototype acquires and displays four simultaneous EMG channels with 
 
 ## 2. Demonstration
 
-![Four-channel EMG demonstration](media/live-demo.webp)
+![Four-channel EMG demonstration](Media/live-demo.webp)
 
-[Watch the full demonstration →](media/LiveDemo.MOV)
+[Watch the full demonstration →](Media/LiveDemo.MOV)
 
 The demonstration shows the completed brace acquiring four EMG channels while different grips are performed.
 
