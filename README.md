@@ -282,8 +282,7 @@ Four-Channel-EMG-Wearable-Forearm-Brace/
 ├── Media/
 │   ├── ForearmBraceTop.jpg
 │   ├── FrequencyPlot.png
-│   ├── InputAndOutputTransientSimulationWithDRL.png
-│   └── LiveDemo.MOV
+│   └── InputAndOutputTransientSimulationWithDRL.png
 ├── README.md
 └── References.md
 ```
