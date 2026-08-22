@@ -3,7 +3,7 @@
 <p align="center">
   <img src="Media/ForearmBraceTop.jpg"
        alt="Top view of the EMG forearm brace"
-       width="300">
+       width="500">
 </p>
 
 **Status:** Functional four-channel acquisition prototype; grip classification and prosthetic control remain in development
