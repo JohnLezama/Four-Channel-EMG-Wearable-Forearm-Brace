@@ -278,7 +278,7 @@ Four-Channel-EMG-Wearable-Forearm-Brace/
 │   │   |   └── EMGPCB_V2.zip
 │   │   └── EMGMainSchematicScreenshot.png
 ├── Firmware/
-│   └── EMG_OPAMP_TEST.ino
+│   └── EMG_SD_Data_Collection.ino
 ├── Media/
 │   ├── ForearmBraceTop.jpg
 │   ├── FrequencyPlot.png
