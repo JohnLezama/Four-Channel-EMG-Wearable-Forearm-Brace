@@ -138,8 +138,6 @@ The PCBs needed to be small enough to fit the brace but practical enough to sold
 
 The ESP32 provided multiple ADC channels, C++ programmability, and a path toward future wireless telemetry and real-time prosthetic control.
 
-The final repository should document the exact ESP32 variant, ADC pins, attenuation configuration, sampling rate, and any input scaling or protection used.
-
 ## 7. Challenges, Failed Approaches, and Fixes
 
 ### Driven-reference implementation
@@ -322,29 +320,27 @@ For background on isolation in patient-connected electronics, see Texas Instrume
 
 * Four assembled EMG-channel PCBs
 * One assembled driven-reference/VREF PCB
-* ESP32 development board: **[ADD EXACT MODEL]**
-* Eight 3M Red Dot 2560 sensing electrodes
-* One reference electrode
+* ESP32
+* Nine 3M Red Dot 2560 sensing electrodes
 * Printed forearm-brace components
-* Battery power source: **[ADD EXACT BATTERY/SUPPLY]**
+* Battery power source: 9V Battery
 * Wiring, connectors, and mounting hardware
 
 ### Build procedure
 
-1. Fabricate four copies of the EMG-channel board using the Gerber package in `electronics/emg-channel/gerbers/`.
-2. Fabricate one driven-reference/VREF board using the Gerbers in `electronics/drl-vref/gerbers/`.
+1. Fabricate four copies of the EMG-channel board using the ZIP file in `Electronics/EMG-Channel/`.
+2. Fabricate one driven-reference/VREF board using the ZIP file in `Electronics/DRL&VREF/`.
 3. Assemble the PCBs according to the schematics and parts list.
 4. Verify power, ground, and VREF before connecting electrodes or the ESP32.
 5. Inject a small known test signal and confirm the output of every analog stage.
-6. Print the brace and electrode-retention components from `cad/stl/`.
+6. Print the brace from `CAD/`.
 7. Install four differential electrode pairs and the reference electrode.
 8. Mount the four channel boards and the driven-reference board on the brace.
 9. Connect the channel outputs to the selected ESP32 ADC pins.
 10. Confirm that every analog output remains within the safe ADC input range for the exact ESP32 model. Add attenuation, clamping, or an external ADC if required.
-11. Flash the firmware in `firmware/esp32-emg-acquisition/`.
-12. Configure the documented ADC attenuation and sampling rate.
-13. Open the specified serial plotting application at **[ADD BAUD RATE]**.
-14. Establish a resting baseline before performing hand or finger movements.
+11. Upload the code in `Firmware/`.
+12. Open the specified serial plotting application at baud rate specified in program.
+13. Establish a resting baseline before performing hand or finger movements.
 
 The ESP32’s usable ADC range depends on its specific variant and attenuation configuration. Document the final voltage-scaling circuit and verify it against the appropriate [Espressif ADC documentation](https://docs.espressif.com/projects/esp-idf/en/v4.4.7/esp32/api-reference/peripherals/adc.html).
 
