@@ -284,7 +284,7 @@ Four-Channel-EMG-Wearable-Forearm-Brace/
 │   │   ├── EMGMain.kicad_sch
 │   │   └── EMGMainSchematicScreenshot.png
 ├── Firmware/
-│   └── EMG_SD_Data_Collection.ino
+│   └── EMGDemo.ino
 ├── Media/
 │   ├── ForearmBraceTop.jpg
 │   ├── FrequencyPlot.png
