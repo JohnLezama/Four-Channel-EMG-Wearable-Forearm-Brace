@@ -23,8 +23,8 @@ I designed and fabricated:
 * Four compact analog front-end PCBs
 * A separate driven-right-leg feedback and voltage-reference PCB
 * A 3D-printed forearm brace that houses:
-  *Mounting for eight sensing electrodes and one reference electrode
-  *All the PCBs and an ESP32
+  * Mounting for eight sensing electrodes and one reference electrode
+  * All the PCBs and an ESP32
 
 The current prototype acquires and displays four simultaneous EMG channels with observable responses to finger movements. It establishes the hardware foundation for collecting labeled grip data, training a classification model, and eventually controlling a prosthetic hand in real time.
 
