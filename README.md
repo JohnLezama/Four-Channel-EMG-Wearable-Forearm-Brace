@@ -334,8 +334,8 @@ For background on isolation in patient-connected electronics, see Texas Instrume
 
 ### Build procedure
 
-1. Fabricate four copies of the EMG-channel board using the ZIP file in `Electronics/EMG-Channel/`.
-2. Fabricate one driven-reference/VREF board using the ZIP file in `Electronics/DRL&VREF/`.
+1. Fabricate four copies of the EMG-channel board using the ZIP file in `Electronics/PCB/EMG-Channel/`.
+2. Fabricate one driven-reference/VREF board using the ZIP file in `Electronics/PCB/DRL&VREF/`.
 3. Assemble the PCBs according to the schematics and parts list.
 4. Verify power, ground, and VREF before connecting electrodes or the ESP32.
 5. Inject a small known test signal and confirm the output of every analog stage.
