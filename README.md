@@ -241,35 +241,53 @@ These measurements are planned for the next development phase.
 ## 9. Repository Guide
 
 ```text
-emg-forearm-brace/
-├── README.md
-├── firmware/
-│   └── esp32-emg-acquisition/
-│       ├── src/
-│       └── README.md
-├── cad/
-│   ├── fitting-test.stl
-│   ├── forearm-brace.stl
-│   └── wire-pin.stl
-├── electronics/
-│   ├── emg-channel/
-│   │   ├── kicad/
-│   │   ├── gerbers/
-│   │   └── emg-channel-schematic.pdf
-│   ├── drl-vref/
-│   │   ├── kicad/
-│   │   ├── gerbers/
-│   │   └── drl-vref-schematic.pdf
+Four-Channel-EMG-Wearable-Forearm-Brace/
+├── CAD/
+│   ├── ForearmBrace - FittingTest.stl
+│   └── ForearmBrace.stl
+├── Docs/
+│   ├── Simulation/
+│   │   ├── FrequencyPlot.png
+│   │   ├── Input.png
+│   │   ├── InputAndOutputTransientSimulationWithDRL.png
+│   │   ├── SimulationSetup.png
+│   │   ├── TestSchematic.png
+│   │   └── VOUT.png
+│   ├── Testing/
+|   |   ├── FrequencyAmplitudes/
+│   │   |   ├── OUT_1000Hz.png
+│   │   |   ├── OUT_100Hz.png
+│   │   |   ├── OUT_10Hz.png
+│   │   |   ├── OUT_1Hz.png
+│   │   |   ├── OUT_200Hz.png
+│   │   |   ├── OUT_20Hz.png
+│   │   |   ├── OUT_300Hz.png
+│   │   |   ├── OUT_30Hz.png
+│   │   |   ├── OUT_400Hz.png
+│   │   |   ├── OUT_500Hz.png
+│   │   |   ├── OUT_50Hz.png
+│   │   |   ├── OUT_5Hz.png
+│   │   |   ├── OUT_600Hz.png
+│   │   |   └── OUT_800Hz.png
 │   └── parts-list.md
-├── docs/
-│   ├── design-requirements.md
-│   ├── simulation/
-│   └── testing/
-├── media/
-│   ├── live-demo.mp4
-│   ├── live-demo.webp
-│   └── brace-and-pcbs.jpg
-└── references.md
+├── Electronics/
+│   ├── DRL&VREF/
+│   │   ├── PCB/
+│   │   |   └── DRL&VREF_V1.zip
+│   │   └── DRL&VREFSchematicScreenshot.png
+│   ├── EMG-Channel/
+│   │   ├── PCB/
+│   │   |   └── EMGPCB_V2.zip
+│   │   └── EMGMainSchematicScreenshot.png
+├── Firmware/
+│   └── EMG_OPAMP_TEST.ino
+├── Media/
+│   ├── ForearmBraceTop.jpg
+│   ├── FrequencyPlot.png
+│   ├── InputAndOutputTransientSimulationWithDRL.png
+│   └── LiveDemo.MOV
+├── README.md
+└── References.md
 ```
 
 ### Directory descriptions
