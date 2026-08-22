@@ -272,10 +272,16 @@ Four-Channel-EMG-Wearable-Forearm-Brace/
 │   ├── DRL&VREF/
 │   │   ├── PCB/
 │   │   |   └── DRL&VREF_V1.zip
+│   │   ├── DRL&VREF.kicad_pcb
+│   │   ├── DRL&VREF.kicad_pro
+│   │   ├── DRL&VREF.kicad_sch
 │   │   └── DRL&VREFSchematicScreenshot.png
 │   ├── EMG-Channel/
 │   │   ├── PCB/
 │   │   |   └── EMGPCB_V2.zip
+│   │   ├── EMGMain.kicad_pcb
+│   │   ├── EMGMain.kicad_pro
+│   │   ├── EMGMain.kicad_sch
 │   │   └── EMGMainSchematicScreenshot.png
 ├── Firmware/
 │   └── EMG_SD_Data_Collection.ino
@@ -289,13 +295,14 @@ Four-Channel-EMG-Wearable-Forearm-Brace/
 
 ### Directory descriptions
 
-* `firmware/` contains the ESP32 acquisition and serial-output code.
-* `cad/` contains the printable brace components
-* `electronics/` contains KiCad sources, schematics, PCB layouts, and the parts list.
-* `docs/simulation/` contains the Bode plots and transient-analysis results.
-* `docs/testing/` contains the injected-frequency captures and debugging evidence.
-* `media/` contains the media used by the README.
-* `references.md` cites the EMG papers and technical resources used during development.
+- `Firmware/` contains the ESP32 data-acquisition firmware.
+- `CAD/` contains the printable brace models.
+- `Electronics/` contains the KiCad source files, schematic images, PCB layouts, and Gerber packages.
+- `Docs/Simulation/` contains frequency-response and transient-analysis results.
+- `Docs/Testing/` contains injected-frequency captures and debugging evidence.
+- `Docs/parts-list.md` contains the project bill of materials.
+- `Media/` contains the images used in this README.
+- `References.md` contains research papers and technical resources consulted during development.
 
 Research papers should be linked or cited rather than redistributed unless their licenses permit redistribution.
 
