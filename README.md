@@ -186,7 +186,7 @@ The analog front end was evaluated using:
 * Simulated electrode impedances
 * Driven-reference feedback
 * A mid-supply voltage reference
-* SPICE models for the respective IC’s involved
+* SPICE models for the respective ICs
 
 The simulation demonstrated:
 
@@ -284,6 +284,7 @@ Four-Channel-EMG-Wearable-Forearm-Brace/
 │   │   ├── EMGMain.kicad_sch
 │   │   └── EMGMainSchematicScreenshot.png
 ├── Firmware/
+|   ├── EMG_SD_Data_Collection.ino
 │   └── EMGDemo.ino
 ├── Media/
 │   ├── ForearmBraceTop.jpg
@@ -334,8 +335,8 @@ For background on isolation in patient-connected electronics, see Texas Instrume
 
 ### Build procedure
 
-1. Fabricate four copies of the EMG-channel board using the ZIP file in `Electronics/PCB/EMG-Channel/`.
-2. Fabricate one driven-reference/VREF board using the ZIP file in `Electronics/PCB/DRL&VREF/`.
+1. Fabricate four copies of the EMG-Channel board using `Electronics/EMG-Channel/PCB/EMGPCB_V2.zip`.
+2. Fabricate the driven-reference/VREF board using `Electronics/DRL&VREF/PCB/DRL&VREF_V1.zip`.
 3. Assemble the PCBs according to the schematics and parts list.
 4. Verify power, ground, and VREF before connecting electrodes or the ESP32.
 5. Inject a small known test signal and confirm the output of every analog stage.
@@ -343,9 +344,8 @@ For background on isolation in patient-connected electronics, see Texas Instrume
 7. Install four differential electrode pairs and the reference electrode.
 8. Mount the four channel boards and the driven-reference board on the brace.
 9. Connect the channel outputs to the selected ESP32 ADC pins.
-10. Confirm that every analog output remains within the safe ADC input range for the exact ESP32 model. Add attenuation, clamping, or an external ADC if required.
-11. Upload the code in `Firmware/`.
-12. Open the specified serial plotting application at baud rate specified in program.
+10. Integrate a compact onboard battery and wireless telemetry for safer, less restrictive wearable testing.11. Upload the code in `Firmware/`.
+12. Open the specified serial plotting application and set the baud rate to 9600.
 13. Establish a resting baseline before performing hand or finger movements.
 
 The ESP32’s usable ADC range depends on its specific variant and attenuation configuration. Document the final voltage-scaling circuit and verify it against the appropriate [Espressif ADC documentation](https://docs.espressif.com/projects/esp-idf/en/v4.4.7/esp32/api-reference/peripherals/adc.html).
